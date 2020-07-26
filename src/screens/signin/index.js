@@ -56,7 +56,7 @@ function Signin() {
                     <button type="submit" class="btn btn-primary">
                       Signin
                                 </button>
-                    <a href={`${config.root}/resetpassword`} class="btn btn-link">
+                    <a href="/resetpassword" class="btn btn-link">
                       Forgot Your Password?
                                 </a>
                   </div>
