@@ -1,13 +1,11 @@
 import React from 'react';
-import { config } from '../../utils/config';
-
 
 function Head() {
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
                 <div class="container">
-                    <a class="navbar-brand" href={`${config.root}/`}>BOOKING APP</a>
+                    <a class="navbar-brand" href="/">BOOKING APP</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -15,14 +13,14 @@ function Head() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href={`${config.root}/signin`}>Login</a>
+                                <a class="nav-link" href="/signin">Login</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href={`${config.root}/register`}>Register</a>
+                                <a class="nav-link" href="/register">Register</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href={`${config.root}/`}>Home</a>
+                                <a class="nav-link" href="/">Home</a>
                             </li>
                         </ul>
 

@@ -5,9 +5,6 @@ import Head from '../../components/header/index';
 
 import CustomTextInput from '../../components/FormComponents/TextInput';
 
-import { config } from '../../utils/config';
-
-
 function Signin() {
   return (
     <div>
@@ -56,7 +53,7 @@ function Signin() {
                     <button type="submit" class="btn btn-primary">
                       Signin
                                 </button>
-                    <a href={`${config.root}/resetpassword`} class="btn btn-link">
+                    <a href="/resetpassword" class="btn btn-link">
                       Forgot Your Password?
                                 </a>
                   </div>
