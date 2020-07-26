@@ -14,10 +14,10 @@ import * as serviceWorker from './serviceWorker';
 
 const router = (
    <Router>
-      <Route path={`${config.root}/home`} component={Home} />
+      <Route exact path={`${config.root}/`} component={Home} />
       <Route path={`${config.root}/register`} component={Register} />
       <Route path={`${config.root}/resetpassword`} component={Resetpassword} />
-      <Route exact path={`${config.root}/`} component={Signin} />
+      <Route path={`${config.root}/signin`} component={Signin} />
    </Router>
 )
 
